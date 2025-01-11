@@ -48,7 +48,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-black via-purple-950 to-black text-white">
-      {/* Navigation */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled ? 'bg-black/80 backdrop-blur-sm' : 'bg-transparent'
       }`}>
@@ -56,7 +55,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="https://cdn.discordapp.com/attachments/1327163566419087432/1327179613973250058/ccfbd7dedea89e4f0cbe66d69107aab7.webp?ex=67837155&is=67821fd5&hm=11b62d07d93f8145fa8274aff0ca5e675090ac5f471f0ba5ff8b5086c08e68fc&"
+                src="https://cdn.discordapp.com/attachments/1327163566419087432/1327179613973250058/ccfbd7dedea89e4f0cbe66d69107aab7.webp"
                 alt="Kaesyr Labs Logo"
                 className="rounded-full w-8 h-8 object-cover"
               />
