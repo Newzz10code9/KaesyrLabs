@@ -56,10 +56,8 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="https://cdn.discordapp.com/attachments/1327163566419087432/1327179613973250058/ccfbd7dedea89e4f0cbe66d69107aab7.webp?ex=67821fd5&is=6780ce55&hm=b391ccb98b9130c0f9d47cf08390b009caf15d03fcebb65c9cc4c38dd3ec485f"
+                src="/logo.webp"
                 alt="Kaesyr Labs Logo"
-                width={32}
-                height={32}
                 className="rounded-full w-8 h-8"
               />
               <span className="font-bold text-xl text-purple-200">Kaesyr Labs</span>
